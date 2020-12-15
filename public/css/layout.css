@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Zoom-TTAS-CradleMountain.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.background-image {
+    position: absolute;
+    height: 60%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+input {
+    height: 20px;
+}
+
+button {
+    margin-top: 10px;
+    width: 180px;
+}
